@@ -1,0 +1,11 @@
+loadcanvas =
+{
+   Properties =
+   {
+   },
+}
+
+function loadcanvas:OnActivate()
+    self.uiCanvasLuaProxy = UiCanvasLuaProxy()
+    self.uiCanvasLuaProxy:LoadCanvas("menu.uicanvas")
+end
