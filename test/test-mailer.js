@@ -63,7 +63,7 @@ describe('Mailer', function() {
       });
     });
 
-    it('should throw an error when "from" field is not a string', function (done) {
+    it('should throw an error when "from" field is not a string', function (done) { 
       var testMailInstance = new TestInstance();
       testMailInstance.from = ['adsd@dasdad.com'];
 
